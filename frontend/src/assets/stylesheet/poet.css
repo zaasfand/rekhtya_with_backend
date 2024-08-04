@@ -1,0 +1,308 @@
+.r-poet-slider .v-slide-group__content {
+
+    background: linear-gradient(270deg, #F86767 0.89%, #F78C8C 99.21%);
+
+
+}
+
+.r-poet-detail-tabs .v-slide-group__content {
+    background: #F8676794 !important;
+
+}
+
+.r-poet-slider.v-tabs--align-tabs-title:not(.v-slide-group--has-affixes) .v-tab:first-child {
+    margin-inline-start: 0px;
+}
+
+.r-poet-slider .v-tab.v-tab.v-btn {
+    font-size: 30px;
+    line-height: 54px;
+    color: #F3E2E2;
+    text-transform: capitalize;
+}
+
+.r-poet-slider .v-tab-item--selected {
+    color: #FFFFFF !important;
+    font-weight: 700 !important;
+
+}
+
+.r-poet-slider.v-card--variant-elevated,
+.r-poet-slider.v-card--variant-flat {
+    background: transparent !important;
+}
+
+.r-poet-slider.v-tabs--density-default {
+    --v-tabs-height: 77px;
+}
+
+.poets-info-sec p {
+    font-size: 35px;
+    line-height: 45px;
+    text-align: left;
+}
+
+.poets-info-sec p span {
+    font-size: 18px;
+    line-height: 30px;
+
+}
+
+.poets-info-sec img {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+
+.poets-info-sec {
+    border: 1px solid #FFFFFF;
+    padding: 20px !important;
+    border-radius: 30px;
+}
+
+.poets-content-wrapper {
+    padding: 0px 10%;
+}
+.r-poet-book-detail{
+    padding: 0px 10%;
+
+
+}
+.r-poet-search-field.v-text-field .v-field--no-label input,
+.r-poet-search-field.v-text-field .v-field--active input {
+    border: 2px solid #F76B6B;
+}
+
+.r-poet-profile-area img {
+    width: 100%;
+}
+
+.r-poet-profile-area p {
+    font-size: 140px;
+    line-height: 220px;
+    text-align: left;
+
+}
+
+.r-poet-profile-area span {
+    font-size: 45px;
+    line-height: 75px;
+    text-align: left;
+
+}
+
+.r-pd-content span {
+    display: inline-block;
+    width: 250px;
+
+}
+
+.r-ol-fol-text p {
+    font-size: 30px;
+    line-height: 45px;
+    text-align: right;
+    padding: 0px 31%;
+
+}
+
+.rp-details {
+    font-size: 30px;
+    line-height: 45px;
+    text-align: left;
+
+}
+
+.r-ol-fol-text {
+
+    border: 1px solid #FFFFFF;
+    background: #F8676752;
+    justify-content: center;
+    display: flex;
+    padding: 30px;
+
+}
+.rpp-det{
+    text-align: right !important;
+}
+.r-poet-deial-block{
+    height: auto !important;
+    min-height: 200px !important;
+}
+.rpp-det-content{
+    font-size: 30px;
+}
+@media (max-width: 1600px) {
+    .poets-info-sec p {
+        font-size: 30px;
+        line-height: 35px;
+
+
+    }
+
+    .poets-info-sec p span {
+        font-size: 16px;
+
+    }
+
+    .poets-info-sec img {
+        height: 90px;
+        width: 90px;
+    }
+
+    .r-poet-slider .v-tab.v-tab.v-btn {
+        font-size: 25px;
+
+    }
+
+    .r-poet-profile-area p {
+        font-size: 130px;
+        line-height: 180px;
+
+
+    }
+
+    .r-poet-profile-area span {
+        font-size: 40px;
+
+
+    }
+
+    .r-ol-fol-text p,
+    .rp-details
+     ,.rpp-det-content{
+        font-size: 28px;
+
+
+    }
+    
+}
+
+@media (max-width: 1200px) {
+    .poets-info-sec p {
+        font-size: 25px;
+    }
+
+    .poets-info-sec p span {
+        font-size: 15px;
+    }
+
+    .r-poet-slider .v-tab.v-tab.v-btn {
+        font-size: 20px;
+
+    }
+
+    .r-poet-profile-area p {
+        font-size: 120px;
+        line-height: 170px;
+
+
+    }
+
+    .r-poet-profile-area span {
+        font-size: 35px;
+
+
+    }
+
+    .r-ol-fol-text p,
+    .rp-details,
+    .rpp-det-content {
+        font-size: 25px;
+
+
+    }
+    .r-poet-detail-section{
+        padding: 0px 8%;
+    }
+    
+
+}
+
+@media (max-width: 1100px) {
+    .poets-content-wrapper ,.r-poet-detail-section{
+        padding: 40px 7%;
+    }
+    .r-poet-book-detail{
+        padding: 0px 7%;
+    
+    
+    }
+}
+
+@media (max-width: 991px) {
+    .r-poet-profile-area p {
+        font-size: 110px;
+        line-height: 160px;
+    }
+
+    .r-poet-profile-area span {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .r-poet-profile-area p {
+        font-size: 100px;
+        line-height: 150px;
+    }
+
+    .r-poet-profile-area span {
+        font-size: 30px;
+    }
+
+    .r-ol-fol-text p {
+        font-size: 22px;
+        padding: 0px 25%;
+
+    }
+
+    .rp-details,.rpp-det-content {
+        font-size: 22px;
+
+    }
+}
+
+@media (max-width: 400px) {
+    .poets-info-sec p {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .poets-info-sec p span {
+        font-size: 14px;
+    }
+
+    .poets-info-sec img {
+        height: 70px;
+        width: 70px;
+    }
+
+    .r-poet-slider .v-tab.v-tab.v-btn {
+        font-size: 18px;
+
+    }
+
+    .r-poet-profile-area p {
+        font-size: 80px;
+        line-height: 100px;
+    }
+
+    .r-poet-profile-area span {
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    .r-ol-fol-text p {
+        font-size: 18px;
+        padding: 0 20%;
+    }
+
+    .rp-details ,.rpp-det-content{
+        font-size: 18px;
+
+
+    }
+
+}

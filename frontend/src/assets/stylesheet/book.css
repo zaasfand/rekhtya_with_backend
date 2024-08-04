@@ -1,0 +1,135 @@
+.r-books-section img {
+    border-radius: 20px !important;
+    max-width: 177px;
+    height: 100%;
+    min-width: 100px;
+    max-width: 180px;
+    width: 40%;
+
+
+}
+
+.r-books-info-container {
+    display: grid;
+}
+
+.r-books-section {
+    min-height: 300px;
+    height: auto;
+
+    background: #F8676752;
+}
+
+.r-book-detail-content-wrapper {
+    padding: 40px 9%;
+
+}
+
+.nc-btn {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22.5px;
+    text-align: left !important;
+    color: #F58383 !important;
+    text-transform: capitalize;
+
+
+}
+
+.nav-fav-drop.v-menu>.v-overlay__content>.v-card,
+.nav-fav-drop.v-menu>.v-overlay__content>.v-sheet,
+.nav-fav-drop.v-menu>.v-overlay__content>.v-list {
+    background-color: #F58383;
+    border: 1px solid #FFFFFF;
+}
+
+.nav-fav-drop .v-list-item-title {
+    font-size: 22px;
+
+}
+
+.read-more-btn {
+    background-color: #F86767 !important;
+    border: 1px solid #FFFFFF;
+    color: white !important;
+    text-transform: capitalize;
+}
+.read-more-btn span{
+    font-size: 33px !important;
+    line-height: normal !important;
+
+}
+.r-book-img-dash{
+    height: 100px;
+    border-radius: 8px;
+
+}
+.r-manage-slide .v-slide-group__container{
+    border: 1px solid #FFFFFF;
+}
+.rp-text-field .v-field__append-inner, .v-field__clearable, .v-field__prepend-inner {
+    display: flex;
+    align-items: end;
+
+}
+.r-send-btn{
+    border: 0px !important;
+    box-shadow: none !important;
+
+} .r-rounded-10{
+    border-radius: 10px !important;
+
+
+}
+@media (max-width: 1600px) {
+    .nav-fav-drop .v-list-item-title {
+        font-size: 20px;
+    }
+
+    .nc-btn {
+        font-size: 14px;
+
+    }
+    .read-more-btn span{
+        font-size: 30px !important;
+    }
+
+}
+
+@media (max-width: 1100px) {
+
+    .r-book-detail-content-wrapper {
+        padding: 40px 7%;
+
+    }
+
+    .nav-fav-drop .v-list-item-title {
+        font-size: 18px;
+    }
+
+    .nc-btn {
+        font-size: 14px;
+
+    }
+    .read-more-btn span{
+        font-size: 28px !important;
+    }
+}
+
+@media (max-width: 767px) {
+
+
+    .nav-fav-drop .v-list-item-title {
+        font-size: 16px;
+    }
+    .read-more-btn span{
+        font-size: 25px !important;
+    }
+}
+@media (max-width: 599.5px) {
+.read-more-btn{
+    margin-top: 30px;
+
+}
+
+}
