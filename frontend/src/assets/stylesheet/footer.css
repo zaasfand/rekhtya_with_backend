@@ -1,0 +1,160 @@
+.v-footer {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.font-w-400 {
+    font-weight: 400;
+}
+
+.p-footer-text {
+    font-size: 24px;
+    line-height: 36.1px;
+    text-align: left;
+
+}
+
+.p-footer-text span {
+    font-size: 18px;
+    line-height: 32.4px;
+    text-align: left;
+
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+}
+
+.social-icons a {
+    margin-left: 30px;
+}
+
+.footer-wrapper {
+    padding: 0px 12%;
+
+}
+
+.footer-bg {
+    background-color: rgb(212, 144, 144);
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+.r-sec-f-text{
+    font-size: 18px;
+}
+.footer-search-field{
+    margin-bottom: -28px !important;
+    position: relative;
+    z-index: 200;
+}
+.s-footer-content-wrapper{
+    background-color: #F86767;
+    padding: 0px 7%;
+}
+.r-searc-field .v-field--appended {
+    padding-inline-end: 0px !important;
+}
+@media (max-width: 1300px) {
+    .p-footer-text {
+        font-size: 22px;
+    }
+
+    .p-footer-text span,.r-sec-f-text {
+        font-size: 16px;
+    }
+
+    .p-footer-se {
+        padding-left: 50px;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .p-footer-se {
+        padding-left: 70px;
+    }
+
+    .p-footer-text {
+        font-size: 20px;
+    }
+
+    .p-footer-text span,.r-sec-f-text {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1055px) {
+
+    .footer-wrapper {
+        padding: 0px 9%;
+    }
+    .footer-bg {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    
+    }
+}
+
+@media (max-width: 991px) {
+
+    .footer-wrapper {
+        padding: 0px 7%;
+    }
+
+    .social-icons a:first-child {
+        margin-left: 0;
+    }
+    .footer-bg {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    
+    }
+}
+
+@media (max-width: 959.5px) {
+
+    .p-footer-se {
+        padding-left: 0px;
+
+    }
+
+    .social-icons {
+
+        margin-left: -12px;
+    }
+
+    .footer-wrapper {
+        padding: 0px 8%;
+    }
+    .footer-bg {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    
+    }
+    .r-sec-footer-wrapper{
+        text-align: center;
+    }
+    .r-sec-footer-wrapper p{
+        margin-top: 5px;
+
+    }
+    .rights-text{
+        margin-bottom: 15px;
+    }
+   
+}
+
+@media (max-width: 400px) {
+
+
+    .footer-wrapper {
+        padding: 0px 10%;
+    }
+    .footer-bg {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    
+    }
+}

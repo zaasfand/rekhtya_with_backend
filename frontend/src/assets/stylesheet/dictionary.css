@@ -1,0 +1,55 @@
+.r-search-container-dic{
+    background: transparent !important;
+
+}
+.r-dectionary-field{
+    background: #FBD3D380 !important;
+ 
+}
+.r-dic-translator-sec{
+    max-width: 479px;
+}
+.s-tran-section{
+    background: #F8676752 !important;
+    border: 1px solid #FFFFFF !important;
+    box-shadow: 4px 4px 4px 0px #00000040;
+}
+.rph-tr{
+    font-size: 32px;
+
+}
+@media (max-width: 1600px) 
+{
+    .rph-tr{
+        font-size: 28px;
+    
+    }
+}
+@media (max-width: 1200px) 
+{
+    .rph-tr{
+        font-size: 25px;
+    
+    }
+}
+@media (max-width: 991px) 
+{
+    .rph-tr{
+        font-size: 20px;
+    
+    }
+}
+@media (max-width: 767px) 
+{
+    .rph-tr{
+        font-size: 18px;
+    
+    }
+}
+@media (max-width: 400px) 
+{
+    .rph-tr{
+        font-size: 16px;
+    
+    }
+}

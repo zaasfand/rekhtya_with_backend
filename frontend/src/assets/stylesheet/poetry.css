@@ -1,0 +1,23 @@
+.r-seel-all-text{
+font-size: 30px;
+cursor: pointer;
+text-decoration: underline;
+}
+.r-poetry-name{
+    top: 5px;
+    left: 10px;
+}
+.r-poerty-oc-section .v-card--variant-elevated, .r-top-poet-slide .v-card--variant-flat{
+background: url('../images/maxresdefault.png') !important;
+
+}
+@media (max-width: 1600px) {
+    .r-seel-all-text{
+        font-size: 28px;
+        }
+}
+@media (max-width: 1200px) {
+    .r-seel-all-text{
+        font-size: 25px;
+        }
+}

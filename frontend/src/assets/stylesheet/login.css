@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.login-wrapper {
+    min-height: 100vh;
+    margin: 0 !important;
+    height: auto;
+    background-color: white !important;
+
+}
+
+.login-first-container {
+    box-shadow: 0px 4px 4px 0px #00000026;
+    background: #F49090;
+    height: 100%;
+    margin: 0 !important;
+    padding: 25% 25px 0px 100px;
+    background-image: url('../images/bglines.webp');
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.login-col {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.color-white {
+    color: white !important;
+}
+
+.text-family {
+    font-family: "Poppins", sans-serif;
+}
+
+.font-w-700 {
+    font-weight: 700;
+}
+
+.font-w-500 {
+    font-weight: 500;
+}
+
+.font-w-600 {
+    font-weight: 600;
+}
+
+.font-w-400 {
+    font-weight: 400;
+}
+
+.font-w-300 {
+    font-weight: 300;
+}
+
+.login-h1 {
+
+    font-size: 55px;
+    line-height: 82.5px;
+    text-align: left;
+
+}
+
+.login-h2 {
+    font-size: 20px;
+    line-height: 23.44px;
+
+}
+
+.login-sec-col {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0px 10%;
+}
+
+.pin-color {
+    color: #F49090;
+}
+
+.login-h3 {
+    font-size: 40px;
+    line-height: 60px;
+    text-align: left;
+
+}
+
+.login-h4 {
+    font-size: 14px;
+    line-height: 21px;
+
+}
+
+.login-h5 {
+    font-size: 15px;
+    line-height: 22.5px;
+
+}
+
+.d-color {
+    color: #EB5151;
+}
+
+.log-btn {
+    font-size: 16px;
+    line-height: 18.75px;
+
+}
+
+.rem-che .v-selection-control__input>.v-icon,
+.rem-che .v-selection-control .v-label {
+    opacity: 1;
+    font-size: 15px;
+    font-weight: 500;
+
+}
+
+.log-fields.v-text-field .v-field--no-label input,
+.log-fields.v-text-field .v-field--active input {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+
+
+}
+
+.fgt-wrap {
+    display: flex;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+
+@media (max-width: 1600px) {
+    .login-h1 {
+        font-size: 50px;
+    }
+
+}
+
+@media (max-width: 1300px) {
+    .login-h1 {
+        font-size: 45px;
+    }
+
+    .login-h3 {
+        font-size: 35px;
+    }
+
+    .login-h2 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .login-h1 {
+        font-size: 40px;
+    }
+
+    .login-h3 {
+        font-size: 30px;
+    }
+
+    .login-h2 {
+        font-size: 16px;
+    }
+
+    .login-h5 {
+        font-size: 13px;
+    }
+
+    .log-btn {
+        font-size: 14px;
+
+    }
+
+    .log-fields.v-text-field .v-field--no-label input,
+    .log-fields.v-text-field .v-field--active input {
+        font-size: 14px;
+    }
+
+    .rem-che .v-selection-control__input>.v-icon,
+    .rem-che .v-selection-control .v-label {
+        font-size: 14px;
+
+    }
+
+    .login-first-container {
+
+        padding: 25% 25px 0px 75px;
+    }
+
+}
+
+@media (max-width: 1000px) {
+    .login-h1 {
+        font-size: 45px;
+        line-height: 50px;
+        margin-bottom: 33px;
+    }
+}
+
+@media (max-width: 959.5px) {
+    .login-first-container {
+        padding: 25% 25px 120px 75px;
+    }
+
+    .login-sec-col {
+
+        margin-top: 55px;
+    }
+}
+
+@media (max-width: 767px) {
+    .login-h1 {
+        font-size: 35px;
+    }
+
+    .login-h3 {
+        font-size: 25px;
+    }
+
+    .login-first-container {
+        padding: 25% 25px 120px 75px;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .login-first-container {
+        padding: 25% 25px 90px 75px;
+    }
+
+}
+
+@media (max-width: 450px) {
+    .login-first-container {
+        padding: 25% 25px 90px 57px;
+    }
+
+    .fgt-wrap {
+        display: block;
+        text-align: right;
+    }
+
+    .login-h5 {
+        margin-top: -20px !important;
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 350px) {
+    .login-first-container {
+        padding: 25% 25px 90px 30px;
+    }
+}

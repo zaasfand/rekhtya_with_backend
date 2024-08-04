@@ -1,0 +1,245 @@
+.hero-carousel .v-carousel__controls {
+    background-color: transparent;
+}
+
+.hero-carousel .v-btn--variant-elevated,
+.hero-carousel .v-btn--variant-flat {
+    background: transparent;
+    color: white;
+    box-shadow: none;
+}
+
+.hero-carousel .v-btn--variant-text .v-btn__overlay {
+    background: transparent;
+}
+
+.hero-carousel .v-btn--icon.v-btn--density-default {
+    width: 15px;
+    height: 15px;
+}
+
+.r-searc-field .v-field--appended {
+    padding-inline-end: 0px !important;
+    
+}
+
+.r-searc-field .v-text-field input {
+
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.search-field-btn {
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.r-search-container {
+    background-color: rgb(244, 144, 144);
+
+}
+
+.r-poetry-section {
+    background-color: #FBD3D380;
+    padding: 40px 0px;
+
+}
+
+.r-heading {
+    font-size: 36px;
+    line-height: 54px;
+
+}
+
+.r-know-section {
+    padding: 45px;
+
+}
+
+.know-sec {
+    margin: 80px 0px;
+}
+
+.r-slide.v-sheet {
+    background: transparent;
+}
+
+.r-slide.v-sheet .v-card--variant-elevated,
+.r-slide.v-sheet .v-card--variant-flat {
+
+    background: #F78C8C;
+    box-shadow: 4px 4px 4px 0px #00000040;
+    border-radius: 30px;
+    padding: 20px;
+
+
+}
+
+.r-top-poet-slide .v-card--variant-elevated,
+.r-top-poet-slide .v-card--variant-flat {
+
+    background: url('../images/images1.png') !important;
+    box-shadow: 4px 4px 4px 0px #00000040 !important;
+    border-radius: 30px !important;
+    padding: 20px;
+    background-image: url('../images/images1.png');
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+
+
+
+}
+
+.poetry-sec-col {
+    background: #F78C8C;
+    box-shadow: 4px 4px 4px 0px #00000040;
+    border-radius: 36px;
+    padding: 20px;
+    min-height: auto;
+
+
+}
+
+.r-slide-text {
+    width: 100%;
+    height: 100%;
+
+}
+
+.r-slide .mdi-chevron-right::before {
+    color: white;
+}
+
+.r-slide .mdi-chevron-left::before {
+    color: white;
+}
+
+/* .slide-img {
+    border-radius: 30px;
+
+} */
+
+.r-poet-name {
+    font-size: 50px;
+    line-height: 65px;
+    text-align: left;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    color: white;
+}
+
+@media (min-width: 2560px) {
+    .r-poetry-container {
+        max-width: 1200px;
+    }
+}
+
+
+@media (min-width: 1920px) {
+    .r-poetry-container {
+        max-width: 1200px;
+    }
+}
+
+@media (max-width: 1600px) {
+    .r-heading {
+        font-size: 32px;
+        line-height: 42px;
+
+
+    }
+
+    .r-poet-name {
+        font-size: 45px;
+        line-height: 60px;
+
+    }
+
+}
+
+@media (max-width: 1200px) {
+    .r-heading {
+        font-size: 30px;
+
+    }
+
+    .r-poet-name {
+        font-size: 40px;
+        line-height: 50px;
+
+    }
+}
+
+@media (max-width: 1260px) and (min-width: 1050px) {
+
+    .r-poetry-container {
+        max-width: 1060px !important;
+    }
+
+
+
+    .r-heading-text {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+}
+
+@media (max-width: 1050px) and (min-width: 960px) {
+
+    .r-poetry-container {
+        max-width: 970px !important;
+    }
+
+
+}
+
+@media (max-width: 991px) {
+
+    .r-searc-field .v-text-field input {
+
+        font-size: 20px;
+    }
+
+    .search-field-btn {
+        font-size: 18px;
+
+    }
+
+    .r-heading {
+        font-size: 25px;
+
+    }
+}
+
+
+
+
+
+
+@media (max-width: 400px) {
+
+    .r-searc-field .v-text-field input {
+
+        font-size: 16px;
+    }
+
+    .search-field-btn {
+        font-size: 14px;
+
+    }
+
+    .r-heading {
+        font-size: 22px;
+        line-height: 36px;
+
+    }
+
+    .r-poet-name {
+        font-size: 35px;
+        line-height: 40px;
+
+    }
+}
